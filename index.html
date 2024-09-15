@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <nav class="flex">
+        <div>
+            <img src="data:image/png;base64,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"
+                alt="logo" class="bg">
+        </div>
+        <div class="links">
+            <a href="">HOME</a>
+            <a href="">SERVICES</a>
+            <a href="">CONTACT</a>
+            <a href="">ABOUT</a>
+        </div>
+    </nav>
+    <div class="div">
+        <h1 id="sub" class="blue"></h1>
+        <form id="form">
+            <div class="current">
+                <label class="">Current Amount in your Account</label>
+                <div class="current1">
+                    <input type="text" id="input" placeholder="Enter current balance" class="place">
+                    <div>
+                        <span id="err1" class="error"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="current1">
+                <label>Loan Amount Needed</label>
+                <div class="current1">
+                    <input type="text" id="input1" placeholder="Enter loan amount" class="place">
+                    <div>
+                        <span id="err2" class="error" style="color: red;"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="currents">
+                <label>Credit history</label>
+                <div class="current1">
+                    <select id="select1" class="options">
+                        <option>Select</option>
+                        <option value="value">1 month</option>
+                        <option value="value1">2 months</option>
+                        <option value="value2">3 months</option>
+                        <option value="value3">4 months</option>
+                        <option value="value4">5 months</option>
+                        <option value="value5">6 months</option>
+                    </select>
+                </div>
+                <div>
+                    <span id="err3" class="error" style="color: red;"></span>
+                </div>
+            </div>
+            <div class="currents">
+                <label>Last deposit</label>
+                <div class="current1">
+                    <select id="select2" class="options">
+                        <option>Select</option>
+                        <option value="value6">1 month</option>
+                        <option value="value7">2 months</option>
+                        <option value="value8">3 months</option>
+                    </select>
+                </div>
+                <div>
+                    <span id="aerr" class="error" style="color: red;"></span>
+                </div>
+            </div>
+            <div class="currents">
+                <label>Last loan collection</label>
+                <div class="current1">
+                    <select id="select3" class="options">
+                        <option>Select</option>
+                        <option value="value9">5 months</option>
+                        <option value="value10">6 months</option>
+                        <option value="value11">7 months</option>
+                        <option value="value11">8 months</option>
+                        <option value="value11">9 months</option>
+                        <option value="value11">10 months</option>
+                        <option value="value11">11 months</option>
+                        <option value="value11">12 months</option>
+                    </select>
+                </div>
+                <div>
+                    <span id="err5" class="error" style="color: red;"></span>
+                </div>
+            </div>
+            <div class="currents">
+                <label>Loan repayment period</label>
+                <div class="current1">
+                    <select id="select4" class="options">
+                        <option>Select</option>
+                        <option value="value12">1 months</option>
+                        <option value="value12">2 months</option>
+                        <option value="value12">3 months</option>
+                        <option value="value12">4 months</option>
+                        <option value="value12">5 months</option>
+                        <option value="value13">6 months</option>
+                        <option value="value13">7 months</option>
+                    </select>
+                </div>
+                <div>
+                    <span id="err6" class="error" style="color: red;"></span>
+                </div>
+            </div>
+            <div class="currents">
+                <label>Account type</label>
+                <div class="current1">
+                    <select id="select5" class="options">
+                        <option>Select</option>
+                        <option value="value14">Current</option>
+                        <option value="value15">Savings</option>
+                    </select>
+                </div>
+                <div>
+                    <span id="err7" class="error" style="color: red;"></span>
+                </div>
+            </div>
+            <div class="currents">
+                <button onclick="getloan()" type="button" class="btn">Submit</button>
+            </div>
+            <div class="current">
+                <p id="para" class="blue"></p>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+            <span>&copy; 2024 All Right Reserved</span>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

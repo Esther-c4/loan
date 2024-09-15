@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    padding: 10px;
+    border-bottom: .6px solid #8080803b;
+    margin: auto;
+    width: 90%;
+}
+.error {
+    color: red;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.links a {
+    color: black;
+    text-decoration: none;
+}
+.bg {
+    width: 40%;
+}
+.div {
+    background-color: #5f9ea07a;
+    padding: 50px 10px;
+}
+form {
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+input {
+    padding: 10px;
+    font-size: .8rem;
+    border: .5px solid #ddd;
+    width: 90%;
+    position: relative;
+}
+::placeholder {
+    font-size: .8rem;
+}
+select {
+    font-size: .8rem;
+    width: 93%;
+    padding: 10px;
+}
+label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.blue {
+    color: cadetblue;
+}
+button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #5f9ea07a;
+    font-size: .8rem;
+    border-radius: 5px;
+    color: white;
+}
+.current {
+    margin: 1rem 0 1rem 0;
+}
+.current1 {
+    margin: .4rem 0 0 0;
+}
+
+.currents {
+    margin: 1rem 0 0 0;
+}
+.footer {
+    background-color: #000000c9;
+    margin-top: 3rem;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+}
